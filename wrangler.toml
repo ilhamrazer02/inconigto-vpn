@@ -12,6 +12,7 @@ routes = [
   { pattern = "zaintest.vuclip.com.frelance.biz.id", custom_domain = true },
   { pattern = "support.zoom.us.frelance.biz.id", custom_domain = true },  
   { pattern = "cache.netflix.com.frelance.biz.id", custom_domain = true },
+  { pattern = "investor.fb.com.frelance.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
