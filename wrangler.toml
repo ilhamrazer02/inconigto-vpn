@@ -5,19 +5,20 @@ minify = true
 workers_dev = true
 
 routes = [
-  { pattern = "frelance.biz.id", custom_domain = true },
-  { pattern = "ava.game.naver.com.frelance.biz.id", custom_domain = true },
-  { pattern = "df.game.naver.com.frelance.biz.id", custom_domain = true },
-  { pattern = "graph.instagram.com.frelance.biz.id", custom_domain = true },
-  { pattern = "zaintest.vuclip.com.frelance.biz.id", custom_domain = true },
-  { pattern = "support.zoom.us.frelance.biz.id", custom_domain = true },  
-  { pattern = "cache.netflix.com.frelance.biz.id", custom_domain = true },
-  { pattern = "investor.fb.com.frelance.biz.id", custom_domain = true },
+  { pattern = "senrea.biz.id", custom_domain = true },
+  { pattern = "ava.game.naver.com.senrea.biz.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.rabu29.4.7.senrea.biz.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.kamis30.4.7.senrea.biz.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.jumat01.5.7.senrea.biz.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.minggu02.05.07.senrea.biz.id", custom_domain = true },  
+  { pattern = "bakrie.ac.id.senin03.05.07.senrea.biz.id", custom_domain = true },
+  { pattern = "bakrie.ac.id.senin04.05.07.senrea.biz.id", custom_domain = true },
+  { pattern = "telkomuniversity.ac.id.selasa06.05.07.senrea.biz.id", custom_domain = true },
 ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "b7301c5b1e394d12bd9d34ab131d7757"
+id = "b76536d6f62c49369c161e21795f51a2"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
@@ -26,6 +27,6 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/mbokone/inconigto-vpn/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/mbokone/inconigto-vpn/refs/heads/master/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/mbokone/inconigto-vpn/refs/heads/master/web/link.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer02/inconigto-vpn/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer02/inconigto-vpn/refs/heads/master/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/ilhamrazer02/inconigto-vpn/refs/heads/master/web/link.html"
